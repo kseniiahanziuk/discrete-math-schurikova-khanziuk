@@ -118,7 +118,7 @@
         }
         
 
-        public void GraphGenerator(int n, double density)
+        public int GraphGenerator(int n, double density)
         {
             for (int i = 0; i < n; i++)
             {
@@ -137,6 +137,8 @@
                 }
             }
             Random random = new Random();
+            int totalWeight = 0;
+
             for (int i = 0; i < densityEdge; i++)
             {
                 var index = random.Next(avEdge.Count);
@@ -146,7 +148,14 @@
                 var weight = random.Next(1, 30);
                 AddEdge(start, end, weight);
                 AddEdge(end, start, weight);
+                
+                Edge edgeStart = start.Neighbors[^1];
+                Edge edgeEnd = end.Neighbors[^1];
+                totalWeight += edgeStart.Weight;
+                totalWeight += edgeEnd.Weight;
             }
+
+            return totalWeight / 2;
         }
         
         public List<Edge> GetAllEdges()

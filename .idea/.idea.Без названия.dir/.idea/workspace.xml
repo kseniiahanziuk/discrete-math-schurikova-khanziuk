@@ -9,9 +9,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3af9def-cda9-40a3-a54a-132c8d7d2aec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Project/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph/Graph.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Graph.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph/Graph.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Project.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Без названия.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Без названия.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/Graph.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Graph.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +34,7 @@
     ".NET Project.Graph.cs.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Graph",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -96,7 +96,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713643995810</updated>
-      <workItem from="1713643997147" duration="541000" />
+      <workItem from="1713643997147" duration="4527000" />
     </task>
     <servers />
   </component>
