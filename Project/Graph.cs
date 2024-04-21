@@ -145,17 +145,12 @@
                 var (start, end) = avEdge[index];
                 avEdge.RemoveAt(index);
 
-                var weight = random.Next(1, 30);
+                var weight = random.Next(1, 20);
                 AddEdge(start, end, weight);
                 AddEdge(end, start, weight);
-                
-                Edge edgeStart = start.Neighbors[^1];
-                Edge edgeEnd = end.Neighbors[^1];
-                totalWeight += edgeStart.Weight;
-                totalWeight += edgeEnd.Weight;
+                totalWeight += weight;
             }
-
-            return totalWeight / 2;
+            return totalWeight;
         }
         
         public List<Edge> GetAllEdges()

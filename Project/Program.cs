@@ -10,7 +10,7 @@ class Program
         Stopwatch stopwatch = new Stopwatch();
         stopwatch.Start();
         
-        int totalWeight = graph.GraphGenerator(8, 22);
+        int totalWeight = graph.GraphGenerator(8, 60);
         
         graph.AdjacencyList();
         graph.AdjacencyMatrix();
