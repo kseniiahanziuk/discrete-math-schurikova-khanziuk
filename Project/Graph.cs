@@ -86,7 +86,7 @@
                 }
             }
 
-            Console.WriteLine("Adjacency Matrix:");
+            Console.WriteLine("\nAdjacency Matrix:");
             for (int i = 0; i < Vertices.Count; i++)
             {
                 for (int j = 0; j < Vertices.Count; j++)
@@ -148,6 +148,15 @@
                 AddEdge(end, start, weight);
             }
         }
-
+        
+        public List<Edge> GetAllEdges()
+        {
+            List<Edge> allEdges = new List<Edge>();
+            foreach (Vertex vertex in Vertices)
+            {
+                allEdges.AddRange(vertex.Neighbors);
+            }
+            return allEdges;
+        }
     }
 }
